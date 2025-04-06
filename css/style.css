@@ -97,14 +97,14 @@ a {
 }
 
 .main__header {
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 3rem;
   font-weight: 600;
   color: var(--text-color-header);
 }
 
 .main__description {
-  margin-top: 32px;
+  margin-top: 20px;
   font-size: 1rem;
   color: var(--text-color-description);
   text-align: center;
@@ -163,6 +163,10 @@ a {
     margin-bottom: 120px;
   }
 
+  .main__header {
+    margin-top: 24px;
+  }
+
   .main__description {
     font-size: 1.25rem;
   }
@@ -175,7 +179,15 @@ a {
 
 @media (width >= 1280px) {
   .main {
-    margin-top: 100px;
+    margin-top: 92px;
     margin-bottom: 92px;
+  }
+
+  .main__description {
+    margin-top: 24px;
+  }
+
+  .subscribe-form {
+    margin-top: 56px;
   }
 }
