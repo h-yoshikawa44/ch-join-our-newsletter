@@ -8,14 +8,14 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="{https://your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-join-our-newsletter/">
       Demo
     </a>
-    <span> | </span> -->
-    <!-- <a href="{https://your-url-to-the-solution}">
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/48105">
       Solution
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://devchallenges.io/challenge/join-our-newsletter">
       Challenge
     </a>
@@ -31,7 +31,6 @@
   - [Desktop](#desktop)
   - [Mobile](#mobile)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
   - [Built with](#built-with)
 - [Features](#features)
 - [Acknowledgements](#acknowledgements)
@@ -50,26 +49,17 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### Desktop
 
-（スクショを貼る）
+![desktop](./screenshots/desktop.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="./screenshots/mobile.png" width="50%">
 
 ### What I learned
 
 <!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
 
-（後で書く）
-
-### Useful resources
-
-<!--
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
--->
-
-（後で書く）
+- (No new learning this time.)
 
 ### Built with
 
@@ -92,11 +82,23 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
+- [x] Create a join our newsletter web page using HTML and CSS.
+- [x] Include an icon indicating the logo of the page.
+- [x] Add an input field for users to enter their email address.
+- [x] Implement a button to submit the form.
+- [x] Ensure the layout is clean and visually appealing with appropriate spacing and typography.
+- [x] Use semantic HTML elements to structure the content and improve SEO.
+- [x] Apply CSS styles to enhance the visual presentation of the page.
+- [x] Test the web page on different devices and screen sizes to ensure responsiveness.
+- [x] Validate the HTML and CSS code to ensure it follows best practices and standards.
+- [x] Document the code and provide clear instructions on how to run and use the web page.
+- [x] Deploy the website to make it accessible for everyone.
+
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+- (No specific references were used for this challenge.)
 
 ## Author
 
