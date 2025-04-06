@@ -9,15 +9,18 @@
 
   /* color map */
   --bg-color: var(--white-darken);
+  --bg-color-form: var(--white);
   --bg-color-email-button: var(--white-darken);
   --bg-color-subscribe-button: var(--blue);
   --text-color-header: var(--black);
   --text-color-description: var(--gray);
-  --text-cllor-black: var(--gray-darken);
-  --text-color-white: var(--white);
+  --text-color-input: var(--gray-darken);
+  --text-color-button: var(--white);
+  --text-color-helper: var(--gray);
+  --border-color-input: var(--gray-lighten);
 
   /* font */
-  --font-base: 'Popiins', system-ui, avenir, helvetica, arial, sans-serif;
+  --font-base: 'Poppins', system-ui, avenir, helvetica, arial, sans-serif;
 }
 
 html,
@@ -37,6 +40,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  background-color: var(--bg-color);
 }
 
 a {
@@ -71,4 +75,81 @@ a {
   .container {
     max-width: 1280px;
   }
+}
+
+/* main
+-------------------- */
+
+.main {
+  margin-top: 144px;
+  margin-bottom: 140px;
+}
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__logo {
+  width: 50px;
+  height: 50px;
+}
+
+.main__header {
+  margin-top: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-color-header);
+}
+
+.main__description {
+  margin-top: 32px;
+  font-size: 1rem;
+  color: var(--text-color-description);
+  text-align: center;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 24px;
+  margin-top: 64px;
+  background-color: var(--bg-color-form);
+  border-radius: 12px;
+  box-shadow: 0 6px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.subscribe-form__input {
+  width: 100%;
+  height: 60px;
+  padding: 16px;
+  font-weight: 500;
+  color: var(--text-color-input);
+  text-align: center;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color-input);
+  border-radius: 12px;
+}
+
+.subscribe-form__input::placeholder {
+  color: var(--text-color-input);
+}
+
+.subscribe-form__submit-button {
+  width: 100%;
+  height: 60px;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-color-button);
+  background-color: var(--bg-color-subscribe-button);
+  border-color: transparent;
+  border-radius: 12px;
+}
+
+.subscribe-form__helper-text {
+  font-size: 0.875rem;
+  color: var(--text-color-helper);
 }
