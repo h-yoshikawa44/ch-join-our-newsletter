@@ -10,11 +10,59 @@
       content="devChallenges.io - Join Our Newsletter | by h-yoshikawa44"
     />
     <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app">
-      <h1>Vite App</h1>
-    </div>
+    <main class="main">
+      <div class="container">
+        <div class="main-layout">
+          <h1>
+            <img
+              class="main__logo"
+              src="./images/logo.svg"
+              alt="Logo"
+              width="52"
+              height="52"
+            />
+          </h1>
+          <h2 class="main__header">Join our newsletter</h2>
+          <div class="main__description">
+            <p>
+              Keep up with our latest collections, exclusive deals, and special
+              offers!
+            </p>
+            <p>
+              We introduce a new collection every week, so stay tuned to snag
+              the hottest items just for you.
+            </p>
+          </div>
+          <form
+            class="subscribe-form"
+            onsubmit="alert('dummy submit. (The entered value is not sent anywhere.)')"
+          >
+            <input
+              class="subscribe-form__input"
+              type="text"
+              placeholder="Enter your email address"
+              autocomplete="email"
+            />
+            <button class="subscribe-form__submit-button" type="submit">
+              Subscribe now
+            </button>
+            <small class="subscribe-form__helper-text">
+              Your email is 100% confidential and won’t send you any spam.
+            </small>
+          </form>
+        </div>
+      </div>
+    </main>
     <script type="module" src="/js/main.js"></script>
   </body>
 </html>
